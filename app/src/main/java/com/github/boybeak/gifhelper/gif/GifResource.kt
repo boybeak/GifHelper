@@ -1,4 +1,4 @@
-package com.github.boybeak.gifhelper
+package com.github.boybeak.gifhelper.gif
 
 import android.support.rastermill.FrameSequenceDrawable
 import com.bumptech.glide.load.engine.Resource

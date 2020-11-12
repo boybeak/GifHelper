@@ -22,7 +22,7 @@ class GifHolder(v: View) : AbsHolder<GifItem>(v) {
         if (item.useGifX) {
             GlideApp.with(itemView).asGifX().load(item.source()).into(gifIV)
         } else {
-            Glide.with(itemView).load(item.source()).into(gifIV)
+            Glide.with(itemView).asGif().load(item.source()).into(gifIV)
         }
         itemView.setBackgroundColor(context().getColor(BG_COLORS[position % BG_COLORS.size]))
     }

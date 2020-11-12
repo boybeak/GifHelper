@@ -1,8 +1,8 @@
-package com.github.boybeak.gifhelper
+package com.github.boybeak.gifhelper.adapter
 
-import android.net.Uri
 import com.github.boybeak.adapter.AbsItem
 import com.github.boybeak.adapter.ItemImpl
+import com.github.boybeak.gifhelper.R
 
 class GifItem(gif: String, val useGifX: Boolean = false) : AbsItem<String>(gif) {
 
